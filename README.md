@@ -3,7 +3,7 @@
 This sample dataset was obtained from Interview Query.
 
 
-##### Questions to guide thinking:
+### Questions to guide thinking:
 
 1. How are each of Stripe's products and segments performing and where are they headed?
 
