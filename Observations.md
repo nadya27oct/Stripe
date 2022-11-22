@@ -16,3 +16,35 @@ Even though Platforms account for most payments processed, Jan 2013 cohort seeme
 Somewhat concerning segment as latest cohorts (June & Aug 2013) have signficantly low volume of transactions processed over their active months. Additionally, no active merchants are available in recent months. <br>
 Ecom merchants have a variablity in the payments processed through out their lifecycle, this segment is less concerning as the most recent cohort has an increasing engagement with Stripe. 
 
+#### RFM segmentation
+
+In order to segment merchants, I computed quartiles based on monthly transaction value, events count and tenure and aggregated a sum for each quartile. Merchants with most events and most transactions processed tend to have a longer tenure (23+ months). These are the power users. On average, merchants with lowest engagements (lower events and transactions processed) tend to be the most recent customers, i.e. they have a short tenure with Stripe products.
+
+Some merchants worth looking at:
+
+1. Merchant ID a9jszcl3di is a leading valuable customer. Even within such a short tenure - only 3 months since using Cart, they have processed a large volume of transactions - top 25th percentile. Perhaps they could be marketed with other products from Stripe.
+
+2. Merchant ID 282t1vpldi in Saas and Ecom have a long tenure with Stripe. Yet they are least engaged with the products as indicated by low event count and low value of transactions processed. These two Merchants may not be worth going after. But it may be worthwhile to gain an idea of the low engagement rates - possible dissatisfaction with Stripe products.
+
+
+#### Product Performance
+
+Recurring products have an increasing trend in dollar transactions processed while lesser transactions are processed through manual charges. This is a good sign as Stripe plans to focus its efforts on promoting recurring subscriptions for its SaaS users.<br> 
+However, the engagement for basic API is going up compared to recurring product. Perhaps the customer success team needs to look into understanding what is driving the high events count with Basic API. <br>
+Additionally, top 50% of customers are driving a large proportion of revenue. It is worth looking into what factors contributed to their successful adoption of Recurring product.
+
+Even though Markplaces account for largest overall $ value of transactions across all products, their overall monthly engagement (shown through events) and monetization (shown through $ transactions) levels have been constant in 2014. <br>
+Merchants in Platform tend to have a high variation in their use of Marketplace, with bottom 50% Merchants contributing to less than $50000 transactions processed while the top 50% contribute to about $50,000-$150,000 transactions value.
+
+Ecommerce - Revenue from ecommerce is somewhat cyclical, peaking around early Summer months. Distribution of $ transaction value vs number of payments submitted show that Merchants in this category are selling products at a constant price.
+
+
+
+
+
+
+
+
+
+
+
